@@ -1,0 +1,50 @@
+body {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: darkmagenta;
+}
+
+main {
+    background-color: lightgreen;
+}
+
+aside {
+    background-color: steelblue;
+}
+
+footer {
+    background-color: darkorange;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+}
+
+.container-item {
+    text-align: center;
+    color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.not-article {
+    font-size: 2rem;
+}
+
+.article {
+    font-size: 1.5rem;
+    background-color: deeppink;
+    margin: 30px;
+    min-height: 75px;
+    /*
+        a hack I found to center the text when we know
+        the height of the parent and only have 1 line
+    */
+    line-height: 75px; 
+}

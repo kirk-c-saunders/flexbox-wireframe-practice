@@ -22,8 +22,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 80vw;
-    margin: auto;
+    margin: 10px;
 }
 
 .container-item {
@@ -47,4 +46,23 @@ footer {
         the height of the parent and only have 1 line
     */
     line-height: 75px; 
+}
+
+.dyanmic-content {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 700px) {
+    .dyanmic-content {
+        flex-direction: row-reverse;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    main {
+        width: 70%
+    }
 }

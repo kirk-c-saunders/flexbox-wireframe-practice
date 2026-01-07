@@ -40,12 +40,7 @@ footer {
     font-size: 1.5rem;
     background-color: deeppink;
     margin: 30px;
-    min-height: 75px;
-    /*
-        a hack I found to center the text when we know
-        the height of the parent and only have 1 line
-    */
-    line-height: 75px; 
+    padding: 2rem;
 }
 
 .dyanmic-content {
